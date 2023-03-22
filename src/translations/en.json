@@ -1,0 +1,112 @@
+{
+    "homeHeader": {
+        "specialist": "Specialist",
+        "healthFacility": "Health facilities",
+        "doctor": "Doctor",
+        "fee": "Checkup package",
+        "searchDoctor": "Find a doctor by specialty",
+        "selectClinic": "Choose hospital clinic",
+        "selectDoctor": "Choose a good doctor",
+        "generalHealth": "General health check",
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "title1": "MEDICAL BACKGROUND",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "option1": "Specialized examination",
+        "option2": "Remote examination",
+        "option3": "General examination",
+        "option4": "Medical test",
+        "option5": "Mental health",
+        "option6": "Dental examination",
+        "option7": "Surgery pack",
+        "option8": "Medical products",
+        "option9": "Corporate health"
+    },
+
+    "menu": {
+        "admin": {
+            "manage-user": "User system",
+            "manage-doctor": "Manage doctor",
+            "manage-admin": "Manage admin",
+            "crud-user": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Clinics",
+            "manage-clinic": "Manage Clinics",
+            "specialty": "Specialties",
+            "manage-specialty": "Mangage Specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Mangage Handbook"
+        },
+        "doctor": {
+            "schedule": "Kế hoạch",
+            "manage-schedule": "Manage Doctor's Schedule",
+            "manage-patient": "Manage Doctor's Patient"
+        }
+    },
+    "manage-user": {
+        "add": "Create a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "phone-number": "Phone Number",
+        "role": "Role",
+        "image": "Image",
+        "save": "Save user",
+        "upload-img": "Upload image",
+        "edit": "Save edit user"
+    },
+    "home-page": {
+        "outstanding-doctor": "Last week's outstanding doctor",
+        "specialty": "Popular specialty",
+        "more-info": "MORE"
+    },
+    "manage-schedule": {
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save-schedule": "Save schedule"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "schedule",
+            "no-schedule": "Currently, the doctor does not have a time frame for examination, please choose another time",
+            "choose": "Choose ",
+            "book-free": " and book (free)"
+        },
+        "extra-infor": {
+            "address": "Medical address",
+            "price": "Examination price",
+            "show-more": "See details",
+            "hide-price": "Hide price list",
+            "payment": "The patient can pay the cost in the form of: "
+        },
+        "booking-modal": {
+            "title": "Information to book a medical appointment",
+            "price": "Examination price",
+            "name": "Name",
+            "phone-number": "Phone Number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reason for examination",
+            "gender": "Address",
+            "birth-date": "Birth date",
+            "save-btn": "Confirm",
+            "cancle": "Cancle"
+        }
+    },
+    "manage-doctor": {
+        "title": "Manage Doctor",
+        "choose-doctor": "Choose doctor",
+        "description": "Description",
+        "price": "Price",
+        "payment": "Payment method",
+        "province": "Province",
+        "nameClinic": "Clinic's name",
+        "addressClinic": "Clinic's address",
+        "note": "Note"
+    }
+}

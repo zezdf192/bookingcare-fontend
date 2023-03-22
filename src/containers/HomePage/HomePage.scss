@@ -1,0 +1,42 @@
+// custom styles slick slider
+
+.slick-prev {
+    width: 44px;
+    height: 48px;
+    position: absolute !important;
+    left: -16px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+    z-index: 999;
+    opacity: 0.7 !important;
+
+    &:hover {
+        opacity: 1 !important;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red !important;
+    font-family: 'Material Icons' !important;
+    //content: '\e038' !important;
+}
+
+.slick-next {
+    width: 44px;
+    height: 48px;
+    position: absolute !important;
+    right: -16px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    opacity: 0.7 !important;
+
+    &:hover {
+        opacity: 1 !important;
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}

@@ -1,0 +1,73 @@
+.more-schedule-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .more-infor {
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+
+        .title-clinic {
+            font-size: 18px;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .specialty {
+            font-weight: 600;
+            margin: 6px 0;
+        }
+    }
+
+    .price-container {
+        padding-top: 16px;
+        border-top: 1px solid #ccc;
+        display: flex;
+        font-size: 16px;
+        .price-title {
+            color: #666;
+            text-transform: uppercase;
+            margin-right: 3px;
+        }
+
+        .price-more {
+            color: #45c3d2;
+            cursor: pointer;
+            margin: 0 3px;
+        }
+
+        .content-up {
+            margin-top: 16px;
+            padding: 6px;
+            font-size: 14px;
+            color: #666;
+            background-color: #f8f8f8;
+            //box-shadow: 0 0 4px 0 rgb(0 0 0 / 8%);
+            border: 1px solid #ddd;
+            box-shadow: 0 0 4px 0.8;
+
+            .title-price {
+                display: flex;
+                justify-content: space-between;
+                color: #000;
+                font-size: 15px;
+            }
+        }
+
+        .content-down {
+            padding: 6px;
+            font-size: 14px;
+            background-color: #eee;
+            margin-bottom: 8px;
+            // box-shadow: 0 0 4px 0 rgb(0 0 0 0.8);
+            border: 1px solid #ddd;
+            box-shadow: 0 0 4px 0.8;
+        }
+
+        &.colum {
+            flex-direction: column;
+        }
+    }
+}

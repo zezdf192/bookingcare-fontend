@@ -1,0 +1,40 @@
+.manage-patient-container {
+    padding: 0 20px;
+    .mp-title {
+        margin: 20px 0;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .manage-patient-body {
+        .mp-confirm {
+            background-color: #0071ba;
+            color: #fff;
+            margin-left: 20px;
+            padding: 4px 10px;
+            outline: none;
+            border: none;
+            border-radius: 8px;
+            &:hover {
+                color: #000;
+                background-color: orange;
+            }
+        }
+
+        .send-bill {
+            background-color: #0071ba;
+            color: #fff;
+            margin-left: 20px;
+            padding: 4px 10px;
+            outline: none;
+            border: none;
+            border-radius: 8px;
+            &:hover {
+                background-color: orange;
+                color: #000;
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+.section-container {
+    width: 100%;
+    height: 370px;
+    padding: 20px 100px;
+
+    &.section-specialty {
+        background: #f5f5f5;
+    }
+
+    &.section-medical-facility {
+    }
+
+    &.section-doctor {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        border-top: 1px solid #888;
+        height: 540px !important;
+        .about-title {
+            padding: 16px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .about-body {
+            display: flex;
+            gap: 20px;
+            padding: 16px;
+            .about-left {
+                width: 60%;
+            }
+
+            .about-right {
+                width: 40%;
+
+                .about-text {
+                    padding: 16px;
+                    font-style: italic;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+
+    .section-content {
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        max-width: 1270px;
+
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            margin: 28px 0;
+            .section-title {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            .section-btn {
+                padding: 0 6px;
+                font-size: 14px;
+                border: none;
+                outline: none;
+                background-color: #ebebeb;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #f7d800;
+                }
+            }
+        }
+
+        .section-body {
+            height: 100%;
+
+            .section-child {
+                padding-right: 8px;
+                padding-left: 8px;
+                margin: -8px;
+
+                .section-img {
+                    padding-top: 58.25%;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+
+                    object-fit: cover !important;
+                }
+
+                &.specialty-img {
+                    .section-img {
+                        //background: url('../../../assets/images/specialty/co-xuong-khop.jpg');
+                    }
+                }
+
+                &.medical-facility-img {
+                    .section-img {
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: auto 50%;
+                        background-attachment: fixed;
+                    }
+                }
+
+                &.doctor-img {
+                    .section-border {
+                        text-align: center;
+                        padding: 10px;
+                        margin: 10px 0;
+                        border: 1px solid #ccc;
+                        .section-img {
+                            padding-top: 0;
+                            width: 120px;
+                            height: 120px;
+                            margin: 0 auto;
+                            border-radius: 50%;
+                            //background-image: url('../../../assets/images/doctor/anh-dai-dien-bs.jpg');
+                        }
+                        .section-title {
+                            .speciaty {
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                }
+
+                &.handbook-img {
+                    .section-img {
+                        background-image: url('../../../assets/images/handbook/benh-vien-kham-ho-hap-ha-noi.png');
+                    }
+                }
+
+                .section-title {
+                    margin-top: 4px;
+                    margin-left: 8px;
+                }
+
+                &:hover {
+                    .section-title {
+                        color: #87e4eb;
+                    }
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.footer-home-container {
+    p {
+        text-align: center;
+        a {
+            text-decoration: none;
+        }
+    }
+}

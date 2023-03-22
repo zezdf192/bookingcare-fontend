@@ -1,0 +1,99 @@
+.banner-home-container {
+    margin-top: 80px;
+    .banner-home-content {
+        width: 100%;
+        height: 600px;
+        background: url('../../../assets/images/banner.jpg');
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .content-up {
+            height: 65%;
+            padding-top: 45px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+            .title {
+                font-size: 32px;
+                color: #fff;
+                text-shadow: 1px 1px 1px #333;
+                font-weight: 500;
+                margin-bottom: 20px;
+
+                b {
+                    display: block;
+                }
+            }
+
+            .search {
+                width: 450px;
+                height: 50px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                background-color: #f7d800;
+                border-radius: 90px;
+                i {
+                    margin-right: 10px;
+                    margin-left: 16px;
+                    font-size: 16px;
+                }
+
+                input {
+                    flex: 1;
+                    height: 100%;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    border-bottom-right-radius: 90px;
+                    border-top-right-radius: 90px;
+                    padding-right: 16px;
+                }
+            }
+        }
+
+        .content-down {
+            height: 35%;
+            padding-bottom: 20px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), white);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            .options {
+                display: flex;
+                justify-content: space-around;
+                .option-item {
+                    width: 150px;
+                    padding: 0 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .option-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50px;
+                        height: 50px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        i {
+                            font-size: 30px;
+                            color: #00c3d9;
+                        }
+                    }
+
+                    .option-text {
+                        font-size: 20px;
+                        font-weight: 500;
+                        text-align: center;
+
+                        span {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

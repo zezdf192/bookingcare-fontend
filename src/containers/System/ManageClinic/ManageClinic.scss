@@ -1,0 +1,73 @@
+.detail-specialty-container {
+    margin-top: 80px;
+    background-color: #eeeeee;
+    .specialty-description {
+        padding: 20px 100px;
+        border-bottom: 1px solid red;
+    }
+
+    .detail-specialty-body {
+        padding: 20px 100px;
+        .ds-option {
+            margin-bottom: 20px;
+
+            select {
+                padding: 4px 8px;
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+        }
+
+        .detail-specialty-list-doctor {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .each-doctor {
+                display: flex;
+                width: 100%;
+                min-height: 300px;
+                padding: 10px;
+
+                background-color: #fff;
+                box-shadow: 0 1px 6px #20212447;
+                border-radius: 8px;
+
+                .content-left {
+                    width: 50%;
+                    border-right: 1px solid #eee;
+                    .doctor-profile-body {
+                        .content-left {
+                            width: 30%;
+                            border-right: none;
+                        }
+                        .content-right {
+                            width: 70%;
+                        }
+                    }
+                }
+
+                .content-right {
+                    width: 50%;
+                    margin-bottom: 20px;
+                    margin-left: 10px;
+
+                    .ds-schedule {
+                        margin-top: 10px;
+                    }
+
+                    .more {
+                        margin-top: 10px;
+                        padding-top: 10px;
+                        border-top: 1px solid #eee;
+                        .more-schedule-container {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.file-upload-container {
+    display: flex;
+    gap: 16px;
+    .file-upload-btn {
+        padding: 6px;
+        background-color: #ccc;
+        cursor: pointer;
+        border-radius: 5px;
+
+        i {
+            margin-left: 8px;
+        }
+    }
+
+    .file-upload-img {
+        flex: 1;
+        border: 1px solid red;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
